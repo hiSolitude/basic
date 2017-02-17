@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<struts>
+    <action name="add" class = "xxx" method="execute">
+        <result name="success" type="dispatcher">/list.jsp</result>
+        <result name="fail" type="redirect">/index.jsp</result>
+    </action>
+
+    <action name="user" class="aaa" method="regist">
+        <result name="success" type="dispatcher">login.jsp</result>
+    </action>
+
+    <action name="login" class="bbb" method="checkLogin">
+        <result name="success" type="dispatcher">index.jsp</result>
+        <result name="fail" type="redirect">login.jsp</result>
+    </action>
+</struts>
