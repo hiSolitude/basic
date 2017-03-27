@@ -13,5 +13,6 @@
     <orderEntry type="library" name="javax.mail:mail:1.4" level="application" />
     <orderEntry type="library" name="javax.xml.parsers:jaxp-api:1.4.5" level="application" />
     <orderEntry type="library" name="jstl:jstl:1.2" level="application" />
+    <orderEntry type="library" name="jsp-api" level="application" />
   </component>
 </module>
