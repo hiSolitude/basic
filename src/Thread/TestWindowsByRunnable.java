@@ -5,6 +5,9 @@ package Thread;
  * <p>
  * 使用实现Runnable的方式来实现窗口售票系统
  *
+ * 存在线程安全问题
+ * 在线程sleep()之后，会放大问题
+ * 可以使用同步锁方式来解决问题
  */
 
 class SellTickets1 implements Runnable {
